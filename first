@@ -2,5 +2,13 @@
 
 int main()
 {
-  printf("Hello World!');
+  char TabName[20];
+  
+  printf("\nHello World!');
+  
+  printf("\nWhat is your name?");
+  scanf("%s", TabName);
+  
+  printf("\nYour name is :", TabName);
+  
  }
